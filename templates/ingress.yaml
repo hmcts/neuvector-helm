@@ -60,6 +60,6 @@ spec:
       paths:
       - path: {{ .Values.controller.ingress.path }}
         backend:
-          serviceName: neuvector-service-restapi
+          serviceName: neuvector-svc-controller
           servicePort: 10443
 {{- end }}

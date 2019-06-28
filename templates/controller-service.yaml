@@ -23,7 +23,7 @@ spec:
       protocol: "UDP"
       name: "cluster-udp-18301"
 {{- if .Values.controller.ingress.enabled }}
-    - port: 8443
+    - port: 10443
       name: controller
       protocol: TCP
 {{- end }}}}
